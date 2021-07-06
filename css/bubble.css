@@ -1,0 +1,66 @@
+.select-toast.toastAni{
+    -webkit-animation: toast 4s;   //对话框的动画
+animation: toast 4s;
+}
+
+@-webkit-keyframes toast {
+    8%{
+        opacity: 0.8;
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    16%{
+        opacity: 1;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    24%{
+        opacity: 1;
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+    32%{
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    82.5%{
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes toast {
+    8%{
+        opacity: 0.8;
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    16%{
+        opacity: 1;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    24%{
+        opacity: 1;
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+    32%{
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    82.5%{
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+    }
+}
